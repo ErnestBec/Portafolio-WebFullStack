@@ -24,6 +24,12 @@
 
    
 }
+.icon-Name{
+        color: #988345;
+        width: 40px;
+        height: 40px;
+        margin-top: 40%;
+}
 .Container-Name h1{
     margin-block-end: 10px;
     color: #988345;
@@ -96,4 +102,25 @@
 .icons-contact:hover{
     width: 30px;
     height: 30px;
+}
+
+
+/* Responsive */
+
+
+@media only screen and (min-width:320px){
+    .Container-Front{
+        height: 480px;
+    }
+}
+@media only screen and (min-height:320px) and (min-width:480px) {
+    .Container-Front{
+        height: 320px;
+    }
+    .Container-Name{
+        height: 245px;
+    }
+    .icon-Name{
+        margin-top: 15%;
+    }
 }

@@ -1,14 +1,19 @@
-import "./App.css";
-import Navbar from "./components/navbar";
+// import Navbar from "./components/navbar";
+import NavbarBotstrap from "./components/navbarBoss";
 import Presentation from "./components/Presentation";
 import AboutMe from "./components/aboutMe";
+import Proyects from "./components/proyects";
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <Presentation />
-      <AboutMe />
+    <div>
+      <div className="App">
+        {/* <Navbar /> */}
+        <NavbarBotstrap />
+        <Presentation />
+        <AboutMe />
+        <Proyects />
+      </div>
     </div>
   );
 }
